@@ -13,7 +13,7 @@ set CMAKE_ARGS="-DLLAMA_CUBLAS=on"
 pip install llama-cpp-python
 
 pip install pyautogui
-pip install puperclip
+pip install pyperclip
 ```
 Then within the model folder download the following model. https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF/blob/main/tinyllama-1.1b-chat-v1.0.Q8_0.gguf
 
