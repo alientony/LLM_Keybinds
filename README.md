@@ -20,5 +20,7 @@ Then within the model folder download the following model. https://huggingface.c
 ## Run The Program
 Python Talking_Notepad.py
 Compress into executable.
+```
 pyinstaller --noconsole --add-data "INSERT ENVRIOMENT PATH HERE\llama_cpp;llama_cpp" --add-data ".\tinyllama-1.1b-chat-v1.0.Q8_0.gguf;model" Talking_Notepad.py
+```
 Sometimes the llama.dll is located elsewhere when installing llama-cpp-python copy the file into the envriomental folder where it is installed. To find it back up a few folders and search for it using the searchbar.
